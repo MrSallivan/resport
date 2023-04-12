@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;500;700&display=swap");
+
+:root {
+	/* colors  */
+	--primaryColor: #fff;
+	--secondaryColor: #000;
+	--navBorderColor: #000;
+
+	/* fonts  */
+	--mainFont: "poppins";
+	--secondaryFont: "Permanent Marker";
+	--mainTxtColor: #000;
+	--bntTxtColor: #000;
+	--bntHoverTxtColor: #fff;
+	--fs-header: 1.5rem;
+	--fw-header: 700;
+	--fw-header-nav: 500;
+	--fs-hero-content-header: 3.5rem;
+	--fw-hero-content-header: 700;
+	--fs-hero-content-body: 1rem;
+	--fw-hero-content-body: 400;
+	--fs-hero-content-bnt: 1.2rem;
+	--fw-hero-content-bnt: 500;
+	--fs-icon: 2rem;
+}
+.dark-theme {
+	/* colors  */
+	--primaryColor: #000;
+	--secondaryColor: #fff;
+	--navBorderColor: #fff;
+
+	/* fonts  */
+	--mainFont: "poppins";
+	--secondaryFont: "Permanent Marker";
+	--mainTxtColor: #fff;
+	--bntTxtColor: #fff;
+	--bntHoverTxtColor: #000;
+	--fs-header: 1.5rem;
+	--fw-header: 700;
+	--fw-header-nav: 500;
+	--fs-hero-content-header: 3.5rem;
+	--fw-hero-content-header: 700;
+	--fs-hero-content-body: 1rem;
+	--fw-hero-content-body: 400;
+	--fs-hero-content-bnt: 1.2rem;
+	--fw-hero-content-bnt: 500;
+	--fs-icon: 2rem;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	min-height: 100vh;
+	width: 100%;
+	font-family: var(--mainFont);
+}
+.home-page {
+	height: 100vh;
+	width: 100%;
+	padding: 40px 140px;
+}
+.header-section {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: var(--fs-header);
+	color: var(--mainTxtColor);
+}
+.header-logo {
+	font-weight: var(--fw-header);
+}
+.header-nav {
+	width: 60%;
+	display: inline-flex;
+	align-items: center;
+}
+.mobile-nav-bar {
+}
+.fa-solid {
+}
+.fa-bars {
+}
+.header-nav-list {
+	width: 90%;
+	display: inline-flex;
+	justify-content: space-around;
+}
+.header-nav-list li {
+	list-style: none;
+}
+.header-nav-list li a {
+	text-decoration: none;
+	color: var(--mainTxtColor);
+	font-weight: var(--fw-header);
+	font-size: var(--fs-header);
+}
+.mode-change {
+}
+.fa-moon {
+}
